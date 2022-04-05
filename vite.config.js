@@ -1,3 +1,5 @@
-export default {
-  base: "cipher-vite"
-}
+import { defineConfig } from "vite"
+
+export default defineConfig({
+  base: '/cipher-vite/'
+})
