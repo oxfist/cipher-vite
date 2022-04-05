@@ -5,9 +5,9 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite dev src",
-    "build": "vite build src --outDir ../dist --emptyOutDir",
+    "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vite build src --outDir ../dist --emptyOutDir && gh-pages -d dist"
+    "deploy": "vite build && gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",
