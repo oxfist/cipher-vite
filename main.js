@@ -1,6 +1,6 @@
 import './style.css'
 
-document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
+document.querySelector('#root').innerHTML = `
+  <h1>Cipher</h1>
+  <a href="https://github.com/Laboratoria/bootcamp/blob/main/projects/01-cipher/README.md" target="_blank">Leer README</a>
 `
