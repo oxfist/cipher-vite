@@ -1,13 +1,17 @@
 {
   "name": "cipher",
   "private": true,
+  "description": "Cipher",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite dev src",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^2.9.0"
+  },
+  "engines": {
+    "node": ">= 14.x"
   }
 }
