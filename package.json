@@ -7,9 +7,13 @@
     "dev": "vite dev src",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist"
+    "deploy": "vite build && gh-pages -d dist",
+    "lint": "eslint src"
   },
   "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "gh-pages": "^3.2.3",
     "vite": "^2.9.0"
   },
