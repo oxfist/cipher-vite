@@ -1,5 +1,3 @@
-import "./style.css";
-
 console.log("Este `console.log` debería tener un warning");
 
 document.querySelector("#root").innerHTML = `
