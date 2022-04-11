@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@swc/jest": "^0.2.20",
+    "@testing-library/dom": "^8.13.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/user-event": "^14.0.4",
     "eslint": "^8.12.0",
