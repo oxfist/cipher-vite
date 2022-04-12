@@ -1,4 +1,4 @@
-console.log("Este `console.log` debería tener un warning");
+console.log("Este `console.log` debería tener un warning de ESLint");
 
 document.querySelector("#root").innerHTML = `
   <h1>Cipher</h1>
